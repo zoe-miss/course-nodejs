@@ -1,6 +1,5 @@
 import { Controller, Post, Body, Get, Param } from '@nestjs/common';
 import { CreateCatDto } from './dto/create-cat.dto';
-import { ApiBody } from '@nestjs/swagger';
 
 @Controller('cats')
 export class CatsController {
